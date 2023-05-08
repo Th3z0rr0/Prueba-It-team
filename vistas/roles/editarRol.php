@@ -67,7 +67,7 @@ if (!empty($_GET['alert'])) {
         <?php } elseif ($alert == 2) { ?>
 
             <div class="alert alert-danger " role="alert">
-                Error al actualizar el usuario
+                Error al actualizar el rol
             </div>
 
         <?php } ?>
