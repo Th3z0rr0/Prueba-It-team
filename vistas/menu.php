@@ -6,7 +6,9 @@
     if ($_SESSION['rol'] == 1) {
     ?>
         <a href="usuarios.php" class="text-decoration-none text-white px-2">Gestión de Usuarios</a>
-    <?php
+        <a href="rol.php" class="text-decoration-none text-white px-2">Gestión de Roles</a>
+        <?php
     }
     ?>
+    <a href="../logica/cerrarSesion.php" class="text-decoration-none text-white px-2">Cerrar Sesión</a>
 </div>

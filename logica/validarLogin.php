@@ -6,7 +6,7 @@ require '../conexion/conexion.php';
 
 $email = $_POST['email'];
 
-$stmt = $pdo->prepare('SELECT * FROM usuarios WHERE correo = ?');
+$stmt = $pdo->prepare('SELECT * FROM usuarios WHERE correo = ? AND estado = 1');
 $stmt->execute([$email]);
 
 $user = $stmt->fetch();
