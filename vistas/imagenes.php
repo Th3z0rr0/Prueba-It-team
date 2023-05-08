@@ -1,3 +1,6 @@
+<?php
+    require '../logica/validaSesion.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +14,7 @@
 </head>
 
 <body>
+    <?php require 'menu.php' ?>
     <div class="container">
         <div class="row mb-3">
             <div class="shadow-lg rounded bg-body-tertiary" id="formulario">
@@ -57,7 +61,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div id="info" >
+                    <div id="info">
 
                     </div>
                 </div>
