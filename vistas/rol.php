@@ -39,7 +39,7 @@ if (!empty($_GET['alert'])) {
         <?php } elseif ($alert == 2) { ?>
 
             <div class="alert alert-danger " role="alert">
-                Error al eliminar el usuario
+                Error al eliminar el rol
             </div>
 
         <?php } ?>
