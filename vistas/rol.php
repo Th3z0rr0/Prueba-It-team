@@ -33,7 +33,7 @@ if (!empty($_GET['alert'])) {
         <?php if ($alert == 1) { ?>
 
             <div class="alert alert-success " role="alert">
-                Usuario Eliminado Correctamente
+                Rol Eliminado Correctamente
             </div>
 
         <?php } elseif ($alert == 2) { ?>
